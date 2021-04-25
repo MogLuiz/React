@@ -9,22 +9,22 @@ import Ramdom from './components/basics/Random'
 
 export default () =>
 (
-    <div className="app">
+<div className="app">
         <h1>Fundamentos React</h1>
 
-        <div className="cards">
+    <div className="cards">
 
-        <Card title="Desafio numero randômico">
+        <Card title="Desafio Aleatório" color="#28ABE3">
             <Ramdom
                 min={10}
                 max={30} />
         </Card>
 
-        <Card title="Fragmento">
+        <Card title="Fragmento" color="#28ABE3">
             <Fragmento></Fragmento>
         </Card>
 
-        <Card title="situacao do Aluno">
+        <Card title="situacao do Aluno" color="#28ABE3">
             <ComParametro
                 titulo="Situacao do Aluno"
                 aluno="Luiz"
@@ -32,7 +32,7 @@ export default () =>
             />
         </Card>
 
-        <Card title="First component">
+        <Card title="First component" color="#28ABE3">
             <Primeiro></Primeiro>
         </Card>
 
