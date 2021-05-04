@@ -7,6 +7,7 @@ import ComParametro from './components/basics/ComParametro'
 import Fragmento from './components/basics/Fragment'
 import Ramdom from './components/basics/Random'
 import FamiliaMembro from './components/basics/FamiliaMembro'
+import ListaAlunos from './components/repetition/ListaAlunos'
 
 
 export default () =>
@@ -15,6 +16,10 @@ export default () =>
         <h1>Fundamentos React</h1>
 
     <div className="cards">
+
+        <Card title="Repetições" color="#28ABE3">
+            <ListaAlunos></ListaAlunos>
+        </Card>
 
         <Card title="Componente com filhos" color="#28ABE3">
             <Familia sobrenome="Matos">
