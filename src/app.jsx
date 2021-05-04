@@ -10,6 +10,8 @@ import FamiliaMembro from './components/basics/FamiliaMembro'
 import ListaAlunos from './components/repetition/ListaAlunos'
 import TabelaProdutos from './components/repetition/TabelaProdutos'
 import ParOuImpar from './components/condicional/ParOuImpar'
+import UserInfo from './components/condicional/UserInfo'
+
 
 
 export default () =>
@@ -21,6 +23,7 @@ export default () =>
 
         <Card title="Renderização condicional" color="#28ABE3">
             <ParOuImpar numero={19}></ParOuImpar>
+            <UserInfo usuario={{nome: 'Luiz'}} />
         </Card>
 
         <Card title="Desafio Repetição" color="#28ABE3">
