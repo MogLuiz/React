@@ -8,6 +8,7 @@ import Fragmento from './components/basics/Fragment'
 import Ramdom from './components/basics/Random'
 import FamiliaMembro from './components/basics/FamiliaMembro'
 import ListaAlunos from './components/repetition/ListaAlunos'
+import TabelaProdutos from './components/repetition/TabelaProdutos'
 
 
 export default () =>
@@ -16,6 +17,10 @@ export default () =>
         <h1>Fundamentos React</h1>
 
     <div className="cards">
+
+        <Card title="Desafio Repetição" color="#28ABE3">
+            <TabelaProdutos></TabelaProdutos>
+        </Card>
 
         <Card title="Repetições" color="#28ABE3">
             <ListaAlunos></ListaAlunos>
