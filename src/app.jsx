@@ -9,6 +9,7 @@ import Ramdom from './components/basics/Random'
 import FamiliaMembro from './components/basics/FamiliaMembro'
 import ListaAlunos from './components/repetition/ListaAlunos'
 import TabelaProdutos from './components/repetition/TabelaProdutos'
+import ParOuImpar from './components/condicional/ParOuImpar'
 
 
 export default () =>
@@ -17,6 +18,10 @@ export default () =>
         <h1>Fundamentos React</h1>
 
     <div className="cards">
+
+        <Card title="Renderização condicional" color="#28ABE3">
+            <ParOuImpar numero={19}></ParOuImpar>
+        </Card>
 
         <Card title="Desafio Repetição" color="#28ABE3">
             <TabelaProdutos></TabelaProdutos>
